@@ -1,29 +1,91 @@
-body{
-    background-color: white;
-    padding: 20px;
-}
-.CV{
-    
-width: 50%;
-justify-content: center;
-margin-left: 400px;
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #dbdada;
 
 }
-.profil{
-    background-color: rgb(0, 102, 255);
-    justify-content: center;
-    text-align: center;
+
+.container {
+    max-width: 50%;
+    margin-left: 25%;
+    background: white;
+}
+
+/* Header */
+.header {
+    background: #667eea;
     color: white;
+    padding: 30px;
 }
-.profil img{
-    width: 150px;
-    height: 150px;
+
+.profile {
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin-top: 20px;
+    border: 3px solid white;
 }
-.profil p{
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 6px;
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
 }
-.
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+p {
+    font-size: 1em;
+}
+
+/* Main */
+.corps {
+    padding: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #667eea;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 5px;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    padding: 5px 0;
+    position: relative;
+}
+
+
+/* Experience */
+.card {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-left: 3px solid #667eea;
+}
+
+
