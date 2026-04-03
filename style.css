@@ -1,0 +1,29 @@
+body{
+    background-color: white;
+    padding: 20px;
+}
+.CV{
+    
+width: 50%;
+justify-content: center;
+margin-left: 400px;
+
+}
+.profil{
+    background-color: rgb(0, 102, 255);
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.profil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.profil p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.
